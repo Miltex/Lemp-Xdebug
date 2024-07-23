@@ -23,6 +23,8 @@ services:
             - "host.docker.internal:host-gateway"
         ports:
             - "9000:9000"
+            - "8000:8000"
+            - "5173:5173"
         restart: always
         volumes:
             - ../public:/var/www/html
