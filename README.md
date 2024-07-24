@@ -45,6 +45,9 @@ nvm install v21.1.0
 
 ### Criando um Projeto com o Vue JS
 
+
+#### Dentro do container execute os comandos abaixo:
+
 npm create vue@latest
 
 npm install --silent
@@ -52,6 +55,10 @@ npm install --silent
 npm install --verbose
 
 npm run dev --host=0.0.0.0
+
+#### Acesse o vue js
+
+http://localhost:5173
 
 
 # Rodando o Laravel Framework
